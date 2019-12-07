@@ -1,0 +1,12 @@
+
+
+LOAD DATA LOCAL  INFILE '/root/gits/data/retail_db/departments/part-00000'  INTO TABLE departments  fields terminated by ','   ;
+LOAD DATA LOCAL  INFILE '/root/gits/data/retail_db/categories/part-00000'  INTO TABLE categories  fields terminated by ','   ;
+LOAD DATA LOCAL  INFILE '/root/gits/data/retail_db/customers/part-00000'  INTO TABLE customers  fields terminated by ','   ;
+
+
+LOAD DATA LOCAL  INFILE '/root/gits/data/retail_db/order_items/part-00000'  INTO TABLE order_items  fields terminated by ','   ;
+
+LOAD DATA LOCAL  INFILE '/root/gits/data/retail_db/orders/part-00000'  INTO TABLE orders  fields terminated by ','   ;
+
+LOAD DATA LOCAL  INFILE '/root/gits/data/retail_db/products/part-00000'  INTO TABLE products  fields terminated by ','   ;
