@@ -1,0 +1,17 @@
+sqoop list-databases \
+  --connect "jdbc:mysql://sandbox-hdp.hortonworks.com:3306" \
+  --username root \
+  --password hortonworks1 
+
+--------------------------------------------------------------------------------------
+
+  sqoop eval \
+  --connect "jdbc:mysql://sandbox-hdp.hortonworks.com:3306/exam_practise0" \
+  --username root \
+  --password hortonworks1 \
+  --query "SELECT * FROM orders LIMIT 10"
+
+
+  
+
+  
